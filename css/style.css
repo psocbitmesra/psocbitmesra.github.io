@@ -195,12 +195,13 @@ header {
 /* Sidebar Style */
 
 .sidebar-navigation {
-  width: 22.5%;
+  width: 18.5%;
   float: left;
   height: 100%;
   position: fixed;
   background-color: rgba(12,12,12,0.6);
   z-index: 10;
+  
 }
 
 .sidebar-black {
@@ -208,7 +209,8 @@ header {
   background-image: url('../img/side-bar/adrien-olichon-9zhsq3o1k60-unsplash.jpg');
   background-position: center; 
   background-repeat: no-repeat;
-  background-size: cover;   
+  background-size: cover;
+    
 }
 
 .sidebar-navigation .logo {
@@ -252,6 +254,7 @@ header {
   font-size: 15px;
   letter-spacing: 0.5px;
   text-transform: capitalize;
+  opacity=0.2
 }
 .circle{
   margin-right: 5px;
