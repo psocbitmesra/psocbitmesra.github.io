@@ -112,14 +112,14 @@ p {
 }
 
 .team-button {
-  
+
   background-color: #008CBA;
   color: white;
 }
 
 .team-button:hover {
-  background-color: white; 
-  color: black; 
+  background-color: white;
+  color: black;
   border: 2px solid #008CBA;
 }
 
@@ -206,9 +206,9 @@ header {
 .sidebar-black {
   background-color: #000000;
   background-image: url('../img/side-bar/adrien-olichon-9zhsq3o1k60-unsplash.jpg');
-  background-position: center; 
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;   
+  background-size: cover;
 }
 
 .sidebar-navigation .logo {
@@ -292,7 +292,7 @@ header {
 
 .sidebar-navigation .social-icons {
   position: absolute;
-  width: 100%;  
+  width: 100%;
   bottom: 10px;
   padding: 0;
   margin: 0;
@@ -354,7 +354,7 @@ header {
   margin-top: 350px;
   margin-bottom: 15px;
   color: rgb(255, 255, 255);
-  font-weight: 600;
+  font-weight: 300;
 }
 @media screen and (min-width: 601px) {
   .Modern-Slider .info h1 {
@@ -555,7 +555,7 @@ header {
   bottom: -44px;
   opacity: 0;
 }
- 
+
 
 #featured .item:hover .featured-button a {
   bottom: 0;
@@ -967,7 +967,7 @@ header {
     z-index:5;
   }
 
-  
+
 
 }
 
