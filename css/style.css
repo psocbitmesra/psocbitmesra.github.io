@@ -10,7 +10,7 @@ p {
 }
 
 .page-content {
-  width: 77.5%;
+  width: 81.5%;
   float: right;
 }
 
@@ -865,6 +865,7 @@ header {
 
 .footer {
   background-color: rgba(12,12,12,0.9);
+  
   height: 80px;
   line-height: 80px;
   display: inline-block;
@@ -874,11 +875,13 @@ header {
 
 .footer p {
   margin-bottom: 0px;
+  
   font-size: 13px;
   line-height: 80px;
   color: #fff;
   letter-spacing: 0.5px;
   font-weight: 300;
+  
 }
 
 .footer p a {
