@@ -489,6 +489,7 @@ header {
   position: relative;
 }
 
+@media only screen and (max-width: 1200px){
 #featured .owl-nav {
   position: absolute;
   display: inline-block;
@@ -520,8 +521,14 @@ header {
 #featured .owl-nav span:hover {
   background-color: #2ba2f1;
   color: #fff;
-}
+}}
 
+@media only screen and (min-width: 1200px){
+  #featured .owl-nav {
+    visibility: hidden;
+  }}
+
+  
 #featured .item {
   text-align: left;
   position: relative;
