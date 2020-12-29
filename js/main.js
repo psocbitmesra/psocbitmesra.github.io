@@ -36,6 +36,28 @@ jQuery(document).ready(function($) {
           
         })
 
+        (function ($) {
+            $(document).ready(function(){
+          
+              // hide .navbar first
+              $(".responsive-nav").hide();
+          
+              // fade in .navbar
+              $(function () {
+                  $(window).scroll(function () {
+          
+                           // set distance user needs to scroll before we start fadeIn
+                      if ($(this).scrollTop() > 100) {
+                          $('.responsive-nav').fadeIn();
+                      } else {
+                          $('.responsive-nav').fadeOut();
+                      }
+                  });
+              });
+          
+          });
+            }(jQuery));
+
 
 
         $(".box-video").click(function(){
@@ -123,6 +145,5 @@ jQuery(document).ready(function($) {
           e.preventDefault();
           $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top -0 }, 500, 'linear');
         });
-
 
 });
