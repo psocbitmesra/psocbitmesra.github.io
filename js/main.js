@@ -1,3 +1,26 @@
+(function ($) {
+    $(document).ready(function(){
+  
+      // hide .navbar first
+      $(".responsive-nav").hide();
+  
+      // fade in .navbar
+      $(function () {
+          $(window).scroll(function () {
+  
+                   // set distance user needs to scroll before we start fadeIn
+              if ($(this).scrollTop() > 100) {
+                  $('.responsive-nav').fadeIn();
+              } else {
+                  $('.responsive-nav').fadeOut();
+              }
+          });
+      });
+  
+  });
+    }(jQuery));
+
+
 jQuery(document).ready(function($) {
 
     'use strict';
@@ -36,34 +59,9 @@ jQuery(document).ready(function($) {
           
         })
 
-        (function ($) {
-            $(document).ready(function(){
-          
-              // hide .navbar first
-              $(".responsive-nav").hide();
-          
-              // fade in .navbar
-              $(function () {
-                  $(window).scroll(function () {
-          
-                           // set distance user needs to scroll before we start fadeIn
-                      if ($(this).scrollTop() > 100) {
-                          $('.responsive-nav').fadeIn();
-                      } else {
-                          $('.responsive-nav').fadeOut();
-                      }
-                  });
-              });
-          
-          });
-            }(jQuery));
 
 
 
-        $(".box-video").click(function(){
-          $('iframe',this)[0].src += "&amp;autoplay=1";
-          $(this).addClass('open');
-        });
 
         $('.owl-carousel').owlCarousel({
             loop:true,
