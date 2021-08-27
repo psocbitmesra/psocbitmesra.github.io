@@ -1,0 +1,36 @@
+[33mcommit a47bd907acb49d1a868511a6c3fb46c18ee67408[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: c68d367 56484bd
+Author: Sagar-Kumar-007 <sk8814594@gmail.com>
+Date:   Mon Aug 23 10:07:31 2021 +0530
+
+    Merge branch 'main' of https://github.com/Psoc-BIT-Mesra-Website/Photographic-Society-Website-k19 into main
+
+[33mcommit c68d3679be225fb8c2c586df531a1bc339f5b783[m
+Author: Sagar-Kumar-007 <sk8814594@gmail.com>
+Date:   Mon Aug 23 10:07:00 2021 +0530
+
+    pinterest added, spellings corrected
+
+[33mcommit 56484bdd3eebaab8fa5a0c7cbf8c90a0e298b342[m
+Author: Sagar Kumar <65843469+Sagar-Kumar-007@users.noreply.github.com>
+Date:   Sun Aug 22 20:56:48 2021 +0530
+
+    Set theme jekyll-theme-cayman
+
+[33mcommit cc5df94092b7ce453e253f734a1b9fe5ff5393c5[m
+Author: Sagar-Kumar-007 <sk8814594@gmail.com>
+Date:   Sun Aug 22 20:55:14 2021 +0530
+
+    images added
+
+[33mcommit f505907aa5627da08e22a13156c66ffa3c519d85[m
+Author: Sagar Kumar <65843469+Sagar-Kumar-007@users.noreply.github.com>
+Date:   Sun Aug 22 20:47:49 2021 +0530
+
+    Create README.md
+
+[33mcommit e385e5488211b812219170ddf45df794d8e2ba41[m
+Author: Sagar Kumar <65843469+Sagar-Kumar-007@users.noreply.github.com>
+Date:   Sun Aug 22 20:47:36 2021 +0530
+
+    first commit
