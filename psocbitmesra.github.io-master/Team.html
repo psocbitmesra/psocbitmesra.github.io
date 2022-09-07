@@ -95,6 +95,10 @@
                 class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-hover-palette-2-base u-text-white"
                 href="Contact.html" style="padding: 10px 0px;">Contact</a>
             </li>
+            <li class="u-nav-item"><a
+                class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-hover-palette-2-base u-text-white"
+                href="report.html" style="padding: 10px 0px;">Reports</a>
+            </li>
           </ul>
         </div>
         <div class="u-custom-menu u-nav-container-collapse">
@@ -111,6 +115,8 @@
                 <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Gallery.html" style="padding: 10px 0px;">Gallery</a>
                 </li>
                 <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contact.html" style="padding: 10px 0px;">Contact</a>
+                </li>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="report.html" style="padding: 10px 0px;">Reports</a>
                 </li>
               </ul>
             </div>
@@ -582,7 +588,7 @@
         <div class="imageDiv col-xl-3 col-lg-3 col-md-4 col-sm-12">
           <div class="speakers xs-mb30">
             <div class="spk-img">
-              <img class="responsive img-fluid" src="images/IMG_20220905_193844 - ADITYA ARYAN.jpg" alt="trainer-img" />
+              <img class="Aditya_A responsive img-fluid" src="images/IMG_20220905_193844 - ADITYA ARYAN.jpg" alt="trainer-img" />
               <ul>
                 <li>
                   <a href="https://instagram.com/vella_manushya?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
@@ -596,7 +602,7 @@
 
               </ul>
             </div>
-            <div class="spk-info">
+            <div class="Aditya_A_S spk-info">
               <h3>Aditya Aryan</h3>
               <p>Resource Lead</p>
             </div>
@@ -833,9 +839,12 @@
     }
 
     .img-fluid {
-      max-height: 340px;
+      max-height: 50vh;
       max-width: 253px;
 
+    }
+    .imageDiv{
+      margin-bottom: 10px;
     }
 
     .whos-speaking-area .speakers {
@@ -1143,19 +1152,45 @@
 
     @media (min-width: 576px) {
       .img-fluid {
-        height: 340px;
+
+        height: 42vh;
         min-width: 290px;
 
+
+      }
+      .Aditya_A{
+        max-height: 35vh;
+      }
+      .Aditya_A_S{
+        padding-bottom: 10px;
       }
 
       .col-sm-12 {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
-        max-width: 41vh;
+        max-width: 37vh;
         margin-left: auto;
         margin-right: auto;
       }
     }
+
+    @media (min-width: 1200px) {
+      .col-xl-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 28.25%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        /* max-width: 37vh; */
+      }
+    }
+
+
 
 
 
