@@ -3,6 +3,13 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2020 Froala Labs
  */
+ .event_list {
+  position: relative;
+  top: 130px;
+  margin-left: 75%;
+  width: 100%
+}
+
  ::-webkit-scrollbar {
   display: none;
 }
@@ -23425,9 +23432,9 @@ a.u-link.u-hover-palette-3-base:hover {
   color: #ffffff;
   /* background-color: #293332; */
 }
-.u-sticky-scroll header {	
-  color: #ffffff;	
-  background-color: #36454f;	
+.u-sticky-scroll header {
+  color: #ffffff;
+  background-color: #36454f;
 }
 #carousel_ebd5{
   background-color: #293332;
@@ -33934,7 +33941,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 
-        
+
 
         /** common-rules **/
         h1.u-title
@@ -34094,7 +34101,7 @@ a.u-link.u-text-hover-grey-90:hover {
         /*end-media rules*/
         /** publish-rules **/
 
-        
+
 
         /** cms-rules **/
         /*begin-responsive rules*/
@@ -34206,7 +34213,7 @@ a.u-link.u-text-hover-grey-90:hover {
         color: #ffffff;
         }
         /** alt-color-rules **/
-    
+
 
 
 /*end-variables sitestylecss*/
@@ -34361,6 +34368,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
- /*begin-variables base-font-size*/ 
+ /*begin-variables base-font-size*/
  html { font-size: 16px; }
  /*end-variables base-font-size*/

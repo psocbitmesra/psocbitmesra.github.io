@@ -1,3 +1,7 @@
 header{
   background-color: #293332;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
