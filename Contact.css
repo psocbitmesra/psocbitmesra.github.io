@@ -1,6 +1,9 @@
 header{
   background-color: #293332;
 }
+section{
+  padding-top: 15vh;
+}
 .u-sticky-scroll header{
   opacity: 0.9;
 }
