@@ -1,0 +1,11 @@
+footer{
+  top: 52vh;
+}
+@media screen and (max-width: 850px) {
+  footer{
+    margin-bottom: 0px;
+  }
+}
+h1{
+  font-family: 'Inconsolata', monospace;
+}
